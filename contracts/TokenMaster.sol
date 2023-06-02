@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract TokenMaster is ERC721, Ownable {
-    uint256 private totalEvents;
+    uint256 public totalEvents;
 
     struct Event {
         uint256 id;
